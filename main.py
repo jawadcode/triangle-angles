@@ -43,7 +43,7 @@ def calculate_A(a, b, c):
 
 def triangle_valid(a, b, c):
     """
-    Uses the triangle validity theorem to weed out invalid triangles
+    Uses the triangle inequality theorem to weed out invalid triangles
     and prevent errors from occurring while calculating the angles
     """
     return a + b > c and a + c > b and b + c > a
