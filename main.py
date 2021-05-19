@@ -29,9 +29,9 @@ def main():
 
     # Output the angles to 9 decimal places
     # avoids any wacky floating point stuff but still provides decent precision
-    print(f"\nAngle A: {round(A, 9)}")
-    print(f"Angle B: {round(B, 9)}")
-    print(f"Angle C: {round(C, 9)}")
+    print(f"\nAngle A: {round(A, 9)}°")
+    print(f"Angle B: {round(B, 9)}°")
+    print(f"Angle C: {round(C, 9)}°")
 
 
 def calculate_A(a, b, c):
